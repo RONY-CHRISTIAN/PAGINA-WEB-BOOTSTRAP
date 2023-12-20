@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGINA-BOOTSTRAP</title>
+    <link rel="stylesheet" href="./bootstrap/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <script src="./bootstrap/bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light fixed-top px-5 bg-dark border-bottom">
+        <div class="container-fluid ">
+          <a class="navbar-brand text-danger fs-3" href="#">SDLG</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse flex-row-reverse bd-highlight " id="navbarNav">
+            <ul class="navbar-nav justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link active text-primary" aria-current="page" href="#carouselExampleIndicators">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-primary" href="#1">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-primary" href="#2">Catalogo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-primary" href="#3">Contactanos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/c1.jpg" class="d-block w-100" alt="img-thumbnail">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/c2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/c3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <div id="1" class=" bg-dark p-5"></div>
+    <div class=" text-center bg-dark ">
+        <p5 class="fs-1 text-primary border-bottom section-title">NOSOTROS</p5>
+    </div>
+    <div class=" bg-dark p-4"></div>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center bg-dark">
+        <div class="col">
+          <div class="card bg-dark border-primary">
+            <div class="card-body">
+              <h5 class="card-title text-center text-primary">MISIÓN</h5>
+              <p class="card-text text-light">Nuestra misión es proporcionar a los gamers de todo el mundo acceso a los mejores productos gamer, desde consolas y periféricos de alta gama hasta ropa y accesorios únicos.</p>
+            </div>
+        </div>
+        </div>
+        <div class="col">
+            <div class="card bg-dark border-primary">
+              <div class="card-body">
+                <h5 class="card-title text-center text-primary">VISIÓN</h5>
+                <p class="card-text text-light">Nuestra visión es convertirnos en el destino de referencia para los amantes de los videojuegos, ofreciendo una amplia gama de productos gamer de alta calidad.</p>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="2" class=" bg-dark p-5"></div>
+    <div class=" text-center bg-dark ">
+        <p5 class="fs-1 text-primary border-bottom section-title">CATÁLOGO</p5>
+    </div>
+    <div class=" bg-dark p-4"></div>
+
+    <div class="row row-cols-1 row-cols-md-4 g-4 bg-dark justify-content-center">
+        <div class="col bg-dark mx-4">
+            <div class="card">
+              <img src="./img/1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center text-danger">PC GAMER HAKU RGB AMD A107700K</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h1 class="text-danger fs-2">S/1,449</h1>
+                <button type="button" class="btn btn-danger">COMPRAR</button>  
+              </div>
+            </div>
+          </div>
+        <div class="col bg-dark mx-4">
+            <div class="card">
+              <img src="./img/2.jpg" class="card-img-top" alt="...">
+              <div class="card-body justify-content-center">
+                <h5 class="card-title text-center text-danger">PC GAMER HAKU RED PLUS CORE I5 6TH</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h1 class="text-danger fs-2">S/1,699</h1>
+                <button type="button" class="btn btn-danger">COMPRAR</button>
+              </div>
+            </div>
+          </div>
+        <div class="col bg-dark mx-4">
+          <div class="card">
+            <img src="./img/3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center text-danger">PC GAMER HAKU RGB PLUS CORE I5 6TH</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h1 class="text-danger fs-2">S/1,899</h1>
+              <button type="button" class="btn btn-danger">COMPRAR</button>  
+            </div>
+          </div>
+        </div>
+        <div class="col bg-dark mx-4">
+          <div class="card">
+            <img src="./img/4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center text-danger">PC GAMER HAKU RED RYZEN 5400G</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h1 class="text-danger fs-2">S/1,999</h1>
+              <button type="button" class="btn btn-danger">COMPRAR</button>  
+            </div>
+          </div>
+        </div>
+        <div class="col bg-dark mx-4">
+          <div class="card">
+            <img src="./img/5.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center text-danger">PC GAMER RYU RGB PLUS CORE I7 6TH GEN</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h1 class="text-danger fs-2">S/1,449</h1>
+              <button type="button" class="btn btn-danger">COMPRAR</button>  
+            </div>
+          </div>
+        </div>
+        <div class="col bg-dark mx-4">
+          <div class="card">
+            <img src="./img/6.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center text-danger">PC GAMER RYU BLUE CORE I7 6TH GEN </h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h1 class="text-danger fs-2">S/2,299</h1>
+              <button type="button" class="btn btn-danger">COMPRAR</button>  
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div id="3" class=" bg-dark p-5"></div>
+    <div class=" text-center bg-dark ">
+          <p5 class="fs-1 text-primary border-bottom section-title">CONTACTANOS</p5>
+    </div>
+    <div class=" bg-dark p-4"></div>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center bg-dark">
+        <div class="col">
+          <div class="card bg-dark border-primary">
+            <div class="card-body">
+              <div class="col-lg-12">
+                <div class="info text-light">
+                  <div class="address">
+                    <i class="bi bi-geo-alt"></i>
+                    <h4 class="text-primary">Ubicación:</h4>
+                    <p>Espinar - Cusco</p>
+                  </div>
+    
+                  <div class="email">
+                    <i class="bi bi-envelope"></i>
+                    <h4 class="text-primary">Email:</h4>
+                    <p>StoreDeLaGaming@gmail.com</p>
+                  </div>
+    
+                  <div class="phone">
+                    <i class="bi bi-phone"></i>
+                    <h4 class="text-primary">Teléfono:</h4>
+                    <p>+1 (1) 123 123123</p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+            <div class="card bg-dark border-primary">
+              <div class="card-body">
+                <div class="col-lg-12 mt-lg-0">
+                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                      <div class="row">
+                        <div class="col-md-6 form-group">
+                          <input type="text" name="name" class="form-control bg-dark" id="name" placeholder="Tu Nombre" required>
+                        </div>
+                        <div class="col-md-6 form-group mt-3 mt-md-0">
+                          <input type="email" class="form-control bg-dark" name="email" id="email" placeholder="Tu Email" required>
+                        </div>
+                      </div>
+                      <div class="form-group mt-3">
+                        <input type="text" class="form-control bg-dark" name="subject" id="subject" placeholder="Asunto" required>
+                      </div>
+                      <div class="form-group mt-3">
+                        <textarea class="form-control bg-dark" name="message" rows="5" placeholder="Mensaje" required></textarea>
+                      </div>
+                      <button type="button" class="btn-primary mt-3">ENVIAR</button>  
+                    </form>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+<div id="3" class=" bg-dark p-2"></div>
+<footer>
+    <div class="text-center bg-dark text-light">
+        <div class="copyright">
+          &copy; Copyright <strong><span>SDLG-STORE DE LA GAMING</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          Designed by <a href="">SDLG</a>
+        </div>
+      </div>
+</footer>
+<div id="3" class=" bg-dark p-1"></div>
+<div id="3" class=" bg-dark p-1"></div>
+
+</body>
+</html>
